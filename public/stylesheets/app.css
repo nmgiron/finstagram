@@ -4,6 +4,7 @@ header {
 }
 body {
     background-color: whitesmoke;
+    font-family: 'Port Lligat Slab', serif;
 }
 main {
     background-color: white;
@@ -14,4 +15,10 @@ main {
 }
 .finstagram-post .user-info img {
     border-radius: 75%;
+}
+a.photo{
+    transition: padding 0.5s;
+}
+a.photo:hover {
+    padding:10px; 
 }
